@@ -1,0 +1,6 @@
+eval $(docker-machine env boot2docker)
+if $(docker pull docker-registry.aiko.sh/tools/ant); then
+  cd docker
+  docker build -t docker-registry.aiko.sh/tools/ant .
+  cd -
+fi
