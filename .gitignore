@@ -1,4 +1,4 @@
-target
+/target
 *.class
 *.js~
 *.js#
@@ -8,7 +8,7 @@ target
 *.mdt#
 *.iml
 *.#*
-*.idea
+/.idea
 .DS_Store
 build.local.properties
 /src/main/javascript/lib/.#tabcomplete.js
